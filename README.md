@@ -29,6 +29,7 @@ For phone number:
 9.	Data unification/cleaning for the phone numbers present in both database and csv is done. Phone numbers comes in different format, it could be continuous number or it could brackets around area code or ‘-‘ between area codes and rest of the numbers.
 10.	Each phone address in csv file is compared one or more phone address present in the database for the relevant EID. 
 Csv Phone address that is not present in the database is added to a phone_dataframe. These phones will be updated in the database later.
+
 For physical address comparison:
 Logic 1:
 if the number of lines matching EID is more than 1, create a df to put those many rows, "rows" while rows >0 and 
